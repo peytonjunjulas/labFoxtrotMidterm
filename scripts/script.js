@@ -1,4 +1,5 @@
-
+$(document).ready(function(){
+  
 //Movies Data 
 const peytonMovies = [
   "Wolf of Wall Street",
@@ -51,4 +52,4 @@ const peytonGames = [
   
   document.getElementById("shows").innerHTML = text2;
 
-
+});
